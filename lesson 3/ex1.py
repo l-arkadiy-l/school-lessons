@@ -1,4 +1,4 @@
-numbers = list(map(int, input().split()))
+numbers = list(map(int, input('Введите три числа:\n').split()))
 
 
 def multiply_numbers(number_1, number_2, number_3, string):
