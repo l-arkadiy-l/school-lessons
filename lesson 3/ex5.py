@@ -8,7 +8,7 @@ def count_x(a, b, c):
     x_2 = (-b + sqrt(discriminant)) / (2 * a)
     return 'X1 = {:.2f}\nX2 = {:.2f}'.format(x_1, x_2)
 
-
+print('Введите значение коэффициентов А (А<>0), В, С')
 a = int(input('A = '))
 b = int(input('B = '))
 c = int(input('C = '))
